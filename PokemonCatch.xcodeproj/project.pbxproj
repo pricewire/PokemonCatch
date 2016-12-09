@@ -11,8 +11,9 @@
 		6D3BC2471DF89F6B006BFB27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BC2461DF89F6B006BFB27 /* ViewController.swift */; };
 		6D3BC24A1DF89F6B006BFB27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3BC2481DF89F6B006BFB27 /* Main.storyboard */; };
 		6D3BC24D1DF89F6B006BFB27 /* PokemonCatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BC24B1DF89F6B006BFB27 /* PokemonCatch.xcdatamodeld */; };
-		6D3BC24F1DF89F6B006BFB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3BC24E1DF89F6B006BFB27 /* Assets.xcassets */; };
 		6D3BC2521DF89F6B006BFB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3BC2501DF89F6B006BFB27 /* LaunchScreen.storyboard */; };
+		6D3BC25B1DF8A1AE006BFB27 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3BC25A1DF8A1AE006BFB27 /* MapKit.framework */; };
+		6D3BC25D1DF8B508006BFB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3BC25C1DF8B508006BFB27 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		6D3BC2461DF89F6B006BFB27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D3BC2491DF89F6B006BFB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D3BC24C1DF89F6B006BFB27 /* PokemonCatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PokemonCatch.xcdatamodel; sourceTree = "<group>"; };
-		6D3BC24E1DF89F6B006BFB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D3BC2511DF89F6B006BFB27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D3BC2531DF89F6B006BFB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3BC25A1DF8A1AE006BFB27 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6D3BC25C1DF8B508006BFB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3BC25B1DF8A1AE006BFB27 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				6D3BC2431DF89F6B006BFB27 /* PokemonCatch */,
 				6D3BC2421DF89F6B006BFB27 /* Products */,
+				6D3BC2591DF8A1AE006BFB27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +63,20 @@
 				6D3BC2441DF89F6B006BFB27 /* AppDelegate.swift */,
 				6D3BC2461DF89F6B006BFB27 /* ViewController.swift */,
 				6D3BC2481DF89F6B006BFB27 /* Main.storyboard */,
-				6D3BC24E1DF89F6B006BFB27 /* Assets.xcassets */,
+				6D3BC25C1DF8B508006BFB27 /* Assets.xcassets */,
 				6D3BC2501DF89F6B006BFB27 /* LaunchScreen.storyboard */,
 				6D3BC2531DF89F6B006BFB27 /* Info.plist */,
 				6D3BC24B1DF89F6B006BFB27 /* PokemonCatch.xcdatamodeld */,
 			);
 			path = PokemonCatch;
+			sourceTree = "<group>";
+		};
+		6D3BC2591DF8A1AE006BFB27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D3BC25A1DF8A1AE006BFB27 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3BC25D1DF8B508006BFB27 /* Assets.xcassets in Resources */,
 				6D3BC2521DF89F6B006BFB27 /* LaunchScreen.storyboard in Resources */,
-				6D3BC24F1DF89F6B006BFB27 /* Assets.xcassets in Resources */,
 				6D3BC24A1DF89F6B006BFB27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +318,7 @@
 				6D3BC2581DF89F6B006BFB27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
