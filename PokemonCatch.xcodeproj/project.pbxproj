@@ -14,6 +14,8 @@
 		6D3BC2521DF89F6B006BFB27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3BC2501DF89F6B006BFB27 /* LaunchScreen.storyboard */; };
 		6D3BC25B1DF8A1AE006BFB27 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3BC25A1DF8A1AE006BFB27 /* MapKit.framework */; };
 		6D3BC25D1DF8B508006BFB27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3BC25C1DF8B508006BFB27 /* Assets.xcassets */; };
+		6D3BC25F1DFB1180006BFB27 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BC25E1DFB1180006BFB27 /* PokedexViewController.swift */; };
+		6D3BC2611DFB1421006BFB27 /* CoreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BC2601DFB1421006BFB27 /* CoreDataHelp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		6D3BC2531DF89F6B006BFB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D3BC25A1DF8A1AE006BFB27 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6D3BC25C1DF8B508006BFB27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D3BC25E1DFB1180006BFB27 /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		6D3BC2601DFB1421006BFB27 /* CoreDataHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataHelp.swift; path = ../CoreDataHelp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				6D3BC2441DF89F6B006BFB27 /* AppDelegate.swift */,
+				6D3BC2601DFB1421006BFB27 /* CoreDataHelp.swift */,
 				6D3BC2461DF89F6B006BFB27 /* ViewController.swift */,
+				6D3BC25E1DFB1180006BFB27 /* PokedexViewController.swift */,
 				6D3BC2481DF89F6B006BFB27 /* Main.storyboard */,
 				6D3BC25C1DF8B508006BFB27 /* Assets.xcassets */,
 				6D3BC2501DF89F6B006BFB27 /* LaunchScreen.storyboard */,
@@ -153,7 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D3BC2471DF89F6B006BFB27 /* ViewController.swift in Sources */,
+				6D3BC25F1DFB1180006BFB27 /* PokedexViewController.swift in Sources */,
 				6D3BC2451DF89F6B006BFB27 /* AppDelegate.swift in Sources */,
+				6D3BC2611DFB1421006BFB27 /* CoreDataHelp.swift in Sources */,
 				6D3BC24D1DF89F6B006BFB27 /* PokemonCatch.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
